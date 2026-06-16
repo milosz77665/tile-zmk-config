@@ -48,8 +48,8 @@
         nav_layer {
             bindings = <
             &trans    &kp N7       &kp N8        &kp N9        &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &caps_word
-            &kp LGUI  &hm LALT N4  &hm LCTRL N5  &hm LSHFT N6  &kp N0     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &hm RGUI CAPS
-            &trans    &kp N1       &kp N2        &kp N3        &trans     &trans    &trans     &trans     &trans     &kp INS 
+            &kp LGUI  &hm LALT N4  &hm LCTRL N5  &hm LSHFT N6  &kp N0     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp RGUI
+            &trans    &kp N1       &kp N2        &kp N3        &trans     &trans    &trans     &trans     &kp INS    &kp CAPS 
                                    &trans        &trans        &trans     &trans    &trans     &kp PSCRN
             >;
         };
