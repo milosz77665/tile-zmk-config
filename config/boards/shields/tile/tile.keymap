@@ -35,10 +35,10 @@
         // =================================================================================================================================
         base_layer {
             bindings = <
-            &kp B       &kp L       &kp D         &kp W          &kp Z       &kp SQT  &kp F         &kp O        &kp U       &kp J
-            &hm LGUI N  &hm RALT R  &hm LCTRL T   &hm LSHFT S    &kp G       &kp Y    &hm RSHFT H   &hm RCTRL A  &hm RALT E  &hm RGUI I
-            &kp Q       &kp X       &kp M         &kp C          &kp V       &kp K    &kp P         &kp DOT      &kp MINUS   &kp COMMA
-                                    &lt UTIL ESC  &lt SYM SPACE  &kp TAB     &kp RET  &lt NAV BSPC  &lt MOUSE DEL
+            &kp B       &kp L       &kp D          &kp W          &kp Z       &kp SQT  &kp F        &kp O        &kp U       &kp J
+            &hm LGUI N  &hm RALT R  &hm LCTRL T    &hm LSHFT S    &kp G       &kp Y    &hm RSHFT H  &hm RCTRL A  &hm RALT E  &hm RGUI I
+            &kp Q       &kp X       &kp M          &kp C          &kp V       &kp K    &kp P        &kp DOT      &kp MINUS   &kp COMMA
+                                    &lt UTIL BSPC  &lt SYM SPACE  &kp DEL     &kp RET  &lt NAV ESC  &lt MOUSE TAB
             >;
         };
 
@@ -47,10 +47,10 @@
         // =================================================================================================================================
         nav_layer {
             bindings = <
-            &trans    &kp N1  &kp N2  &kp N3  &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp CAPS
-            &trans    &kp N4  &kp N5  &kp N6  &kp N0     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &caps_word
-            &kp LGUI  &kp N7  &kp N8  &kp N9  &trans     &kp INS   &kp RSHFT  &kp RCTRL  &kp LALT   &kp RGUI 
-                              &trans  &trans  &trans     &trans    &trans     &kp PSCRN
+            &trans    &kp N7       &kp N8        &kp N9        &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &caps_word
+            &hm LGUI  &hm LALT N4  &hm LCTRL N5  &hm LSHFT N6  &kp N0     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &hm RGUI CAPS
+            &trans    &kp N1       &kp N2        &kp N3        &trans     &trans    &trans     &trans     &trans     &kp INS 
+                                   &trans        &trans        &trans     &trans    &trans     &kp PSCRN
             >;
         };
 
